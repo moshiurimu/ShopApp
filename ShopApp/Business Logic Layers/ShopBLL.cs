@@ -29,7 +29,7 @@ namespace ShopApp.Business_Logic_Layers
         public string Add(Item aItem)
         {
             
-            if (HasThisItem(aItem.ItenId.ToString()))
+            if (HasThisItem(aItem.ItemId))
             {
                 return UpdateItem(aItem);
             }

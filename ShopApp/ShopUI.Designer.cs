@@ -50,7 +50,7 @@
             this.showButton.Location = new System.Drawing.Point(148, 303);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(75, 23);
-            this.showButton.TabIndex = 17;
+            this.showButton.TabIndex = 2;
             this.showButton.Text = "Show";
             this.showButton.UseVisualStyleBackColor = true;
             this.showButton.Click += new System.EventHandler(this.showButton_Click);
@@ -60,7 +60,7 @@
             this.addItemButton.Location = new System.Drawing.Point(229, 85);
             this.addItemButton.Name = "addItemButton";
             this.addItemButton.Size = new System.Drawing.Size(79, 22);
-            this.addItemButton.TabIndex = 16;
+            this.addItemButton.TabIndex = 2;
             this.addItemButton.Text = "Add Item";
             this.addItemButton.UseVisualStyleBackColor = true;
             this.addItemButton.Click += new System.EventHandler(this.addItemButton_Click);
@@ -70,7 +70,7 @@
             this.saveButton.Location = new System.Drawing.Point(229, 114);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(75, 23);
-            this.saveButton.TabIndex = 15;
+            this.saveButton.TabIndex = 2;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
@@ -80,14 +80,14 @@
             this.quantityTextBox.Location = new System.Drawing.Point(98, 59);
             this.quantityTextBox.Name = "quantityTextBox";
             this.quantityTextBox.Size = new System.Drawing.Size(206, 20);
-            this.quantityTextBox.TabIndex = 10;
+            this.quantityTextBox.TabIndex = 1;
             // 
             // itemIdTextBox
             // 
             this.itemIdTextBox.Location = new System.Drawing.Point(98, 31);
             this.itemIdTextBox.Name = "itemIdTextBox";
             this.itemIdTextBox.Size = new System.Drawing.Size(206, 20);
-            this.itemIdTextBox.TabIndex = 12;
+            this.itemIdTextBox.TabIndex = 0;
             // 
             // shopAddressTextBox
             // 
@@ -95,14 +95,14 @@
             this.shopAddressTextBox.Multiline = true;
             this.shopAddressTextBox.Name = "shopAddressTextBox";
             this.shopAddressTextBox.Size = new System.Drawing.Size(206, 48);
-            this.shopAddressTextBox.TabIndex = 13;
+            this.shopAddressTextBox.TabIndex = 1;
             // 
             // shopNameTextBox
             // 
             this.shopNameTextBox.Location = new System.Drawing.Point(98, 34);
             this.shopNameTextBox.Name = "shopNameTextBox";
             this.shopNameTextBox.Size = new System.Drawing.Size(206, 20);
-            this.shopNameTextBox.TabIndex = 14;
+            this.shopNameTextBox.TabIndex = 0;
             // 
             // label5
             // 
@@ -150,7 +150,7 @@
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(347, 154);
-            this.groupBox1.TabIndex = 18;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Shop Entry";
             // 
@@ -164,7 +164,7 @@
             this.groupBox2.Location = new System.Drawing.Point(12, 172);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(347, 119);
-            this.groupBox2.TabIndex = 18;
+            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Product Entry";
             // 

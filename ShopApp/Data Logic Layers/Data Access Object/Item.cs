@@ -10,12 +10,12 @@ namespace ShopApp
     {
 
         public int Id { set; get; }
-        public string ItenId { get; set; }
+        public string ItemId { get; set; }
         public int Quantity { set; get; }
 
-        public Item(string itenId, int quantity)
+        public Item(string itemId, int quantity)
         {
-            ItenId = itenId;
+            ItemId = itemId;
             Quantity = quantity;
         }
 

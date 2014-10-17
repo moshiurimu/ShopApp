@@ -19,7 +19,6 @@ namespace ShopApp
         }
 
         private Shop aShop;
-
         private ShopBLL aShopBll= new ShopBLL();
         private Item aItem;
 
@@ -35,9 +34,7 @@ namespace ShopApp
         {
             aItem = new Item(itemIdTextBox.Text, Convert.ToInt16(quantityTextBox.Text));
             string msg = aShopBll.Add(aItem);
-            MessageBox.Show(msg);
-
-            
+            MessageBox.Show(msg);   
         }
 
         private void showButton_Click(object sender, EventArgs e)

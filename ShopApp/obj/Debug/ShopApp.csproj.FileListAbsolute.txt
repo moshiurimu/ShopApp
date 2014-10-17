@@ -15,3 +15,16 @@ F:\BASIS OOP ASP.NET 49 Batch\14-Oct-2014\14-Oct-2014\ShopApp\ShopApp\obj\Debug\
 F:\BASIS OOP ASP.NET 49 Batch\14-Oct-2014\14-Oct-2014\ShopApp\ShopApp\obj\Debug\ShopApp.csproj.GenerateResource.Cache
 F:\BASIS OOP ASP.NET 49 Batch\14-Oct-2014\14-Oct-2014\ShopApp\ShopApp\obj\Debug\ShopApp.exe
 F:\BASIS OOP ASP.NET 49 Batch\14-Oct-2014\14-Oct-2014\ShopApp\ShopApp\obj\Debug\ShopApp.pdb
+F:\BASIS OOP ASP.NET 49 Batch\14-Oct-2014\14-Oct-2014\ShopApp\ShopApp\obj\Debug\ShopApp.csprojResolveAssemblyReference.cache
+D:\Moshiur_OOP_49\ShopApp\ShopApp\bin\Debug\ShopApp.exe.config
+D:\Moshiur_OOP_49\ShopApp\ShopApp\obj\Debug\ShopApp.exe
+D:\Moshiur_OOP_49\ShopApp\ShopApp\obj\Debug\ShopApp.pdb
+D:\Moshiur_OOP_49\ShopApp\ShopApp\bin\Debug\ShopApp.exe
+D:\Moshiur_OOP_49\ShopApp\ShopApp\bin\Debug\ShopApp.pdb
+D:\Moshiur_OOP_49\ShopApp\ShopApp\obj\Debug\ShopApp.csprojResolveAssemblyReference.cache
+D:\Moshiur_OOP_49\ShopApp\ShopApp\obj\Debug\ShopApp.ShopUI.resources
+D:\Moshiur_OOP_49\ShopApp\ShopApp\obj\Debug\ShopApp.Properties.Resources.resources
+D:\Moshiur_OOP_49\ShopApp\ShopApp\obj\Debug\ShopApp.csproj.GenerateResource.Cache
+C:\Users\PC21\Downloads\ShopApp-master\ShopApp-master\ShopApp\bin\Debug\ShopApp.exe.config
+C:\Users\PC21\Downloads\ShopApp-master\ShopApp-master\ShopApp\obj\Debug\ShopApp.exe
+C:\Users\PC21\Downloads\ShopApp-master\ShopApp-master\ShopApp\obj\Debug\ShopApp.pdb

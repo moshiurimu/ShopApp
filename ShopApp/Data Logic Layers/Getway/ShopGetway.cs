@@ -20,8 +20,11 @@ namespace ShopApp.Data_Logic_Layers.Getway
         public string Save(Shop aShop)
         {
             connection.Open();
-            string query = string.Format("INSERT INTO t_Shop VALUES ('{0}','{1}')", aShop.Name, aShop.Address);
-            SqlCommand cmd = new SqlCommand(query, connection);
+            string query = "INSERT INTO t_Shop (Name,Address) VALUES(@Name, @Address)";
+            SqlCommand cmd = new SqlCommand(query,connection);
+            cmd.Parameters.AddWithValue("@Name",aShop.Name);
+            cmd.Parameters.AddWithValue("@Address",aShop.Address);
+            
             int affectedrow = cmd.ExecuteNonQuery();
             connection.Close();
             if (affectedrow > 0)
@@ -72,7 +75,7 @@ namespace ShopApp.Data_Logic_Layers.Getway
         public string Add(Item items)
         {
             connection.Open();
-            string query = string.Format("INSERT INTO t_Item VALUES ('{0}','{1}')", items.ItenId, items.Quantity);
+            string query = string.Format("INSERT INTO t_Item VALUES ('{0}','{1}')", items.ItemId, items.Quantity);
             SqlCommand cmd = new SqlCommand(query, connection);
             int affectedrow = cmd.ExecuteNonQuery();
             connection.Close();
@@ -100,7 +103,7 @@ namespace ShopApp.Data_Logic_Layers.Getway
         public string UpdateItem(Item aItem)
         {
             connection.Open();
-            string query = string.Format("UPDATE t_Item SET Quentity = Quentity + {0} WHERE Item_Id={1}", aItem.Quantity, aItem.ItenId);
+            string query = string.Format("UPDATE t_Item SET Quentity = Quentity + {0} WHERE Item_Id={1}", aItem.Quantity, aItem.ItemId);
             SqlCommand cmd = new SqlCommand(query, connection);
             int affectedrow = cmd.ExecuteNonQuery();
             connection.Close();
